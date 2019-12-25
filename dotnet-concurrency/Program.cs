@@ -1,4 +1,5 @@
-﻿using dotnet_concurrency.Threads;
+﻿using dotnet_concurrency.Obsolete_Concurrency;
+using dotnet_concurrency.Threads;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +34,9 @@ namespace dotnet_concurrency
             //EventHandler progressReporter = new EventHandler((object o, EventArgs arg) => { Console.WriteLine($"{(int)o}%"); });
             //ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
             // 7. Threads > Thread Safe
-            ThreadSafe ts = new ThreadSafe();
+            //ThreadSafe ts = new ThreadSafe();
+            // 7. Obsolete Concurrency > Thread Safe
+            AsynchronousProgrammingModel apm = new AsynchronousProgrammingModel();
         }
     }
 }
