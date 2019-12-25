@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="Obsolete Concurrency\AsynchronousDelegates.cs" />
     <Compile Include="Obsolete Concurrency\AsynchronousProgrammingModel.cs" />
+    <Compile Include="Obsolete Concurrency\EventAsynchronousPattern.cs" />
+    <Compile Include="Obsolete Concurrency\webclient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Threads\Cancel Thread.cs" />

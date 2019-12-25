@@ -38,8 +38,10 @@ namespace dotnet_concurrency
             // 8. Obsolete Concurrency > APM
             //AsynchronousProgrammingModel apm = new AsynchronousProgrammingModel();
             // 9. Obsolete Concurrency > Asynchronous Delegates
-            AsynchronousDelegates ad = new AsynchronousDelegates();
-            Console.ReadLine();
+            //AsynchronousDelegates ad = new AsynchronousDelegates();
+            //Console.ReadLine();
+            // 10. Obsolete Concurrency > EAP
+            EventAsynchronousPattern eap = new EventAsynchronousPattern();
         }
     }
 }
