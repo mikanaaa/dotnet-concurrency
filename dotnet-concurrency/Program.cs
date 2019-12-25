@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dotnet_concurrency.Threads;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,9 @@ namespace dotnet_concurrency
     {
         static void Main(string[] args)
         {
+            // 1. Threads > Common Threading
+            CommonThreading ct = new CommonThreading();
+            Console.WriteLine("Hello from main thread.");
         }
     }
 }
