@@ -30,8 +30,10 @@ namespace dotnet_concurrency
             //Console.ReadLine();
             //cts.Cancel();
             // 6. Threads > Thread Progress Report
-            EventHandler progressReporter = new EventHandler((object o, EventArgs arg) => { Console.WriteLine($"{(int)o}%"); });
-            ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
+            //EventHandler progressReporter = new EventHandler((object o, EventArgs arg) => { Console.WriteLine($"{(int)o}%"); });
+            //ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
+            // 7. Threads > Thread Safe
+            ThreadSafe ts = new ThreadSafe();
         }
     }
 }

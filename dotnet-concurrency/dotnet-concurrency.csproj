@@ -51,6 +51,7 @@
     <Compile Include="Threads\Passing Parameters.cs" />
     <Compile Include="Threads\The Thread Pool.cs" />
     <Compile Include="Threads\Thread Progress Report.cs" />
+    <Compile Include="Threads\Thread Safe.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
