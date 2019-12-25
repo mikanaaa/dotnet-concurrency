@@ -15,7 +15,9 @@ namespace dotnet_concurrency
             //CommonThreading ct = new CommonThreading();
             //Console.WriteLine("Hello from main thread.");
             // 2. Threads > Passing Parameters
-            PassingParameters pp = new PassingParameters();
+            //PassingParameters pp = new PassingParameters();
+            // 3. Threads > Divide And Conquer
+            DivideAndConquer dac = new DivideAndConquer();
         }
     }
 }
