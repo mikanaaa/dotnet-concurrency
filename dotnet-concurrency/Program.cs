@@ -35,8 +35,11 @@ namespace dotnet_concurrency
             //ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
             // 7. Threads > Thread Safe
             //ThreadSafe ts = new ThreadSafe();
-            // 7. Obsolete Concurrency > Thread Safe
-            AsynchronousProgrammingModel apm = new AsynchronousProgrammingModel();
+            // 8. Obsolete Concurrency > APM
+            //AsynchronousProgrammingModel apm = new AsynchronousProgrammingModel();
+            // 9. Obsolete Concurrency > Asynchronous Delegates
+            AsynchronousDelegates ad = new AsynchronousDelegates();
+            Console.ReadLine();
         }
     }
 }

@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Obsolete Concurrency\AsynchronousDelegates.cs" />
     <Compile Include="Obsolete Concurrency\AsynchronousProgrammingModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
