@@ -23,12 +23,15 @@ namespace dotnet_concurrency
             //TheThreadPool ttp = new TheThreadPool();
             //Console.ReadLine();
             // 5. Threads > Cancel Thread
-            CancellationTokenSource cts = new CancellationTokenSource();
-            CancelThread ct = new CancelThread();
-            ct.InvokeThreadMethod(cts);
-            Console.WriteLine("Press enter before 10/10 to quit operation");
-            Console.ReadLine();
-            cts.Cancel();
+            //CancellationTokenSource cts = new CancellationTokenSource();
+            //CancelThread ct = new CancelThread();
+            //ct.InvokeThreadMethod(cts);
+            //Console.WriteLine("Press enter before 10/10 to quit operation");
+            //Console.ReadLine();
+            //cts.Cancel();
+            // 6. Threads > Thread Progress Report
+            EventHandler progressReporter = new EventHandler((object o, EventArgs arg) => { Console.WriteLine($"{(int)o}%"); });
+            ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
         }
     }
 }
