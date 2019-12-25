@@ -12,8 +12,10 @@ namespace dotnet_concurrency
         static void Main(string[] args)
         {
             // 1. Threads > Common Threading
-            CommonThreading ct = new CommonThreading();
-            Console.WriteLine("Hello from main thread.");
+            //CommonThreading ct = new CommonThreading();
+            //Console.WriteLine("Hello from main thread.");
+            // 2. Threads > Passing Parameters
+            PassingParameters pp = new PassingParameters();
         }
     }
 }
