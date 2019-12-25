@@ -9,3 +9,8 @@ This project is ment mostly for revising topics related to .net concurrency, mul
   * Thread cancellation
   * Thread progress report
   * Thread safety
+* Obsolete concurrency
+  * APM - Asynchronous programming model
+  * Asynchronous delegates
+  * EAP - Event based asynchronous pattern
+  * Background worker
