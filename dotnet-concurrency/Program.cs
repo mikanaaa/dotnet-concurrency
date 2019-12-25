@@ -17,7 +17,10 @@ namespace dotnet_concurrency
             // 2. Threads > Passing Parameters
             //PassingParameters pp = new PassingParameters();
             // 3. Threads > Divide And Conquer
-            DivideAndConquer dac = new DivideAndConquer();
+            //DivideAndConquer dac = new DivideAndConquer();
+            // 3. Threads > The Thread Pool
+            TheThreadPool ttp = new TheThreadPool();
+            Console.ReadLine();
         }
     }
 }

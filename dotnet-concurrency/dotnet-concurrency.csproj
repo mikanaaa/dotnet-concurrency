@@ -48,6 +48,7 @@
     <Compile Include="Threads\Common Threading.cs" />
     <Compile Include="Threads\Divide And Conquer.cs" />
     <Compile Include="Threads\Passing Parameters.cs" />
+    <Compile Include="Threads\The Thread Pool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
