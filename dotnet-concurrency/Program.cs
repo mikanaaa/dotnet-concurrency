@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace dotnet_concurrency
@@ -18,9 +19,16 @@ namespace dotnet_concurrency
             //PassingParameters pp = new PassingParameters();
             // 3. Threads > Divide And Conquer
             //DivideAndConquer dac = new DivideAndConquer();
-            // 3. Threads > The Thread Pool
-            TheThreadPool ttp = new TheThreadPool();
+            // 4. Threads > The Thread Pool
+            //TheThreadPool ttp = new TheThreadPool();
+            //Console.ReadLine();
+            // 5. Threads > Cancel Thread
+            CancellationTokenSource cts = new CancellationTokenSource();
+            CancelThread ct = new CancelThread();
+            ct.InvokeThreadMethod(cts);
+            Console.WriteLine("Press enter before 10/10 to quit operation");
             Console.ReadLine();
+            cts.Cancel();
         }
     }
 }
