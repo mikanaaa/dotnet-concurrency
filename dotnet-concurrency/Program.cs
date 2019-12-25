@@ -41,7 +41,9 @@ namespace dotnet_concurrency
             //AsynchronousDelegates ad = new AsynchronousDelegates();
             //Console.ReadLine();
             // 10. Obsolete Concurrency > EAP
-            EventAsynchronousPattern eap = new EventAsynchronousPattern();
+            //EventAsynchronousPattern eap = new EventAsynchronousPattern();
+            // 11. Obsolete Concurrency > Bacground Worker
+            BackgroundWorkerClass bwc = new BackgroundWorkerClass();
         }
     }
 }
