@@ -1,4 +1,5 @@
-﻿using dotnet_concurrency.Obsolete_Concurrency;
+﻿using dotnet_concurrency.Tasks;
+using dotnet_concurrency.Obsolete_Concurrency;
 using dotnet_concurrency.Threads;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ namespace dotnet_concurrency
     {
         static void Main(string[] args)
         {
+            // THREADS
             // 1. Threads > Common Threading
             //CommonThreading ct = new CommonThreading();
             //Console.WriteLine("Hello from main thread.");
@@ -35,6 +37,7 @@ namespace dotnet_concurrency
             //ThreadProgressReport tpr = new ThreadProgressReport(progressReporter);
             // 7. Threads > Thread Safe
             //ThreadSafe ts = new ThreadSafe();
+            // OBSOLETE CONCURRENCY
             // 8. Obsolete Concurrency > APM
             //AsynchronousProgrammingModel apm = new AsynchronousProgrammingModel();
             // 9. Obsolete Concurrency > Asynchronous Delegates
@@ -43,7 +46,10 @@ namespace dotnet_concurrency
             // 10. Obsolete Concurrency > EAP
             //EventAsynchronousPattern eap = new EventAsynchronousPattern();
             // 11. Obsolete Concurrency > Bacground Worker
-            BackgroundWorkerClass bwc = new BackgroundWorkerClass();
+            //BackgroundWorkerClass bwc = new BackgroundWorkerClass();
+            // TASKS
+            // 12. Tasks > Task Basics
+            TasksBasics tb = new TasksBasics();
         }
     }
 }
