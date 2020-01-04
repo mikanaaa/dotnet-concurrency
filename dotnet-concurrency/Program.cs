@@ -49,7 +49,9 @@ namespace dotnet_concurrency
             //BackgroundWorkerClass bwc = new BackgroundWorkerClass();
             // TASKS
             // 12. Tasks > Task Basics
-            TasksBasics tb = new TasksBasics();
+            //TasksBasics tb = new TasksBasics();
+            // 13. Tasks > Task Return Values
+            TaskReturnValues trv = new TaskReturnValues();
         }
     }
 }
