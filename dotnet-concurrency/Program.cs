@@ -57,8 +57,9 @@ namespace dotnet_concurrency
             // 15. Tasks > Exception handling
             //TaskExceptionHandling teh = new TaskExceptionHandling();
             // 16. Tasks > Progress Report
-            TaskProgressReport tpr = new TaskProgressReport();
-
+            //TaskProgressReport tpr = new TaskProgressReport();
+            // 17. Tasks > Task Cancellation
+            TaskCancellation tc = new TaskCancellation();
         }
     }
 }

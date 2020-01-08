@@ -50,6 +50,7 @@
     <Compile Include="Obsolete Concurrency\EventAsynchronousPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\TaskCancellation.cs" />
     <Compile Include="Tasks\TaskExceptionHandling.cs" />
     <Compile Include="Tasks\TaskProgressReport.cs" />
     <Compile Include="Tasks\TaskReturnValues.cs" />
