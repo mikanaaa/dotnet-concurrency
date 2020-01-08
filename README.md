@@ -14,3 +14,10 @@ This project is ment mostly for revising topics related to .net concurrency, mul
   * Asynchronous delegates
   * EAP - Event based asynchronous pattern
   * Background worker
+* Tasks
+  * Task basics
+  * Returning values
+  * Task vs Thread
+  * IProgress & Progress
+  * Task cancellation
+  * Task exception handling
