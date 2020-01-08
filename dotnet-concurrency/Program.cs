@@ -54,8 +54,11 @@ namespace dotnet_concurrency
             //TaskReturnValues trv = new TaskReturnValues();
             // 14. Tasks > Task vs Thread
             //TaskVsThread tvt = new TaskVsThread();
-            // 14. Tasks > Exception handling
-            TaskExceptionHandling teh = new TaskExceptionHandling();
+            // 15. Tasks > Exception handling
+            //TaskExceptionHandling teh = new TaskExceptionHandling();
+            // 16. Tasks > Progress Report
+            TaskProgressReport tpr = new TaskProgressReport();
+
         }
     }
 }
