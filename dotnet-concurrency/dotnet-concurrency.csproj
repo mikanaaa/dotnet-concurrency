@@ -50,8 +50,10 @@
     <Compile Include="Obsolete Concurrency\EventAsynchronousPattern.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\TaskExceptionHandling.cs" />
     <Compile Include="Tasks\TaskReturnValues.cs" />
     <Compile Include="Tasks\TasksBasics.cs" />
+    <Compile Include="Tasks\TaskVsThread.cs" />
     <Compile Include="Threads\Cancel Thread.cs" />
     <Compile Include="Threads\Common Threading.cs" />
     <Compile Include="Threads\Divide And Conquer.cs" />
